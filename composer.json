@@ -1,0 +1,21 @@
+{
+    "name": "ernix/lettercase",
+    "description": "A tool to convert from and to camelCase, snake_case, PascalCase and Path/Form.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shin Kojima",
+            "email": "shin@kojima.org"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}
