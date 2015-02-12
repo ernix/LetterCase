@@ -1,6 +1,6 @@
 <?php namespace Ernix;
 
-/*
+/**
  * LetterCase class
  *
  * This class attempts to invoke a method on LetterCase\LetterCase subclass.
