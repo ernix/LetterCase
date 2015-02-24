@@ -44,9 +44,9 @@ class LetterCase
      * Parse input string.
      *
      * XXX: Ambiguous Parsing Rule
-     *  Some input strings are not enough clear to determine which `case` they 
-     *  were.  The current parsing rule is completely rely on my personal 
-     *  sense and it might be reasonable to give extra arguments so that users 
+     *  Some input strings are not enough clear to determine which `case` they
+     *  were.  The current parsing rule is completely rely on my personal
+     *  sense and it might be reasonable to give extra arguments so that users
      *  can tweak this method.
      *
      * @param string $str Input string.
@@ -98,7 +98,7 @@ class LetterCase
     /**
      * snake_case
      *
-     * @return snake_case object 
+     * @return snake_case object
      */
     public function snake()
     {
@@ -115,7 +115,7 @@ class LetterCase
     /**
      * camelCase
      *
-     * @return camelCase object 
+     * @return camelCase object
      */
     public function camel()
     {
@@ -130,7 +130,7 @@ class LetterCase
      *
      * XXX: DIRECTORY_SEPARATOR is Platform Independent
      *
-     * @return Path/Form object 
+     * @return Path/Form object
      */
     public function path()
     {
