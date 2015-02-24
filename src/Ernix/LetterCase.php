@@ -1,6 +1,6 @@
 <?php namespace Ernix;
 
-/*
+/**
  * LetterCase class
  *
  * This class attempts to invoke a method on LetterCase\LetterCase subclass.
@@ -10,6 +10,11 @@
  * @author   Shin Kojima <shin@kojima.org>
  * @license  MIT License
  * @link     http://github.com/ernix/
+ *
+ * @method static camel
+ * @method static pascal
+ * @method static path
+ * @method static snake
  */
 class LetterCase
 {
